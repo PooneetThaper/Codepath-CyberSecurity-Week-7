@@ -11,19 +11,20 @@ Time spent: **5** hours spent in total
     - Vulnerability types: Cross-Site Scripting (XSS) Vulnerability with embedding
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [x] GIF Walkthrough:
+  - [x] GIF Walkthrough: 
+    - <img src="https://raw.githubusercontent.com/PooneetThaper/Codepath-CyberSecurity-Week-7/master/gifs/YoutubeXSS.gif" width="800">
   - [x] Steps to recreate:
     - Create new post
-    - Paste '''[embed src='https://youtube.com/embed/123\x3csvg onload=alert(123)\x3e'][/embed]'''
+    - Paste [embed src='https://youtube.com/embed/123\x3csvg onload=alert(123)\x3e'][/embed]
     - The onload is executed and an alert comes up
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
 2. (Required) User Enumeration
   - [x] Summary: User Enumeration to get valid user
     - Vulnerability types: User Enumeration
     - Tested in version: 4.2
     - Fixed in version:
   - [x] GIF Walkthrough:
+    - <img src="https://raw.githubusercontent.com/PooneetThaper/Codepath-CyberSecurity-Week-7/master/gifs/UserEnumeration.gif" width="800">
   - [x] Steps to recreate:
     - Guess usernames with random password until website tells you that the password is wrong
     - Guess passwords for that user until password is successful
@@ -34,6 +35,7 @@ Time spent: **5** hours spent in total
     - Tested in version: 4.2
     - Fixed in version:
   - [x] GIF Walkthrough:
+    - <img src="https://raw.githubusercontent.com/PooneetThaper/Codepath-CyberSecurity-Week-7/master/gifs/Media.gif" width="800">
   - [x] Steps to recreate:
     - Upload a new image as Media
     - Edit the data of the media with a script
